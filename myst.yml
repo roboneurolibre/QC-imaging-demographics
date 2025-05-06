@@ -1,0 +1,93 @@
+# See docs at: https://mystmd.org/guide/frontmatter
+version: 1
+project:
+  title: 'Representation in Brain Imaging Research'
+  subtitle: A Quebec demographic overview
+  thebe:
+    binder:
+      url: https://terrarium.evidencepub.io/ # NeuroLibre binder URL, production will override this.
+      repo: evaalonsoortiz/QC-imaging-demographics # Production will override this.
+      ref: HEAD # Production will override this.
+  authors:
+    - name: Tudor Sintu
+      orcid: 0009-0001-8425-3210
+      corresponding: true
+      email: tudor.sintu@gmail.com
+      github: tsintu
+    - name: Olujide Oyeniran
+      affiliations: 
+      orcid: 0000-0002-9786-423X
+    - name: Udunna Anazodo
+      affiliations: mni
+      orcid: 0000-0001-8864-035X
+      email: udunna.anazodo@mcgill.ca
+    - name: Benjamin De Leener
+      affiliations: neuropoly; chusj; polymtlcs
+      orcid: 0000-0002-1378-2756
+      email: benjamin.de-leener@polymtl.ca
+    - name: Eva Alonso-Ortiz
+      affiliations: neuropoly; chusj
+      orcid: 0000-0001-6590-7234
+      email: eva.alonso-ortiz@polymtl.ca
+      github: evaalonsoortiz
+  affiliations:
+    - id: neuropoly
+      institution: NeuroPoly Lab, Polytechnique Montreal
+      ror: https://ror.org/05f8d4e86
+      isni: 0000 0004 0435 3292
+      department: Electrical Engineering
+      address: 2500 Chem. de Polytechnique
+      city: Montreal
+      region: Quebec
+      country: Canada
+      postal_code: H3T 1J4
+      phone: 1 (514) 340-4711
+    - id: mni
+      institution: Montreal Neurological Institute, McGill University
+      ror: https://ror.org/05ghs6f64
+      isni: 0000 0004 0646 3639
+      address: 3801 University Street
+      city: Montreal
+      region: Quebec
+      country: Canada
+      postal_code: H3A 2B4
+    - id: chusj
+      institution: CHU Sainte-Justine
+      ror: https://ror.org/01gv74p78
+      isni: 0000 0001 2173 6322
+      address: 3175 Chem. de la Côte-Sainte-Catherine
+      city: Montreal
+      region: Quebec
+      country: Canada
+      postal_code: H3T 1C5
+    - id: polymtlcs
+      institution: Polytechnique Montreal
+      ror: https://ror.org/05f8d4e86
+      isni: 0000 0004 0435 3292
+      department: Computer Engineering and Software Engineering
+      address: 2500 Chem. de Polytechnique
+      city: Montreal
+      region: Quebec
+      country: Canada
+      postal_code: H3T 1J4
+      phone: 1 (514) 340-4711
+  keywords:
+    - reproducible publishing
+    - mystmd
+    - next-gen preprints
+  github: https://github.com/evaalonsoortiz/QC-imaging-demographics
+  venue: Neurolibre #Production will override this.
+  subject: Living Preprint # Production will override this.
+  numbering:
+    headings: true
+  doi: 10.55458/neurolibre.xxxxx # Production will override this.
+  open_access: true
+  license:
+    content: CC-BY-4.0
+    code: MIT
+  abbreviations:
+    MyST: Markedly Structured Markdown
+  resources:
+    - content/figures.ipynb
+site:
+  template: article-theme # Or book-theme
