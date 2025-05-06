@@ -1,5 +1,5 @@
 { 
-    "src": "https://github.com/evaalonsoortiz/QC-imaging-demographics/tree/main",
+    "src": "https://github.com/evaalonsoortiz/QC-imaging-demographics/raw/refs/heads/main/data/demodata.zip",
     "dst": "../data",
-    "projectName": "QC-imaging-demographics"
+    "projectName": "qc-imaging-demographics"
 }

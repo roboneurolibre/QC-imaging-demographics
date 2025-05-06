@@ -1,0 +1,7 @@
+jupyter-book==0.13.0
+plotly
+matplotlib
+numpy
+pandas
+repo2data
+seaborn
