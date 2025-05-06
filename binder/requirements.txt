@@ -4,3 +4,4 @@ numpy
 pandas
 repo2data
 seaborn
+openpyxl
