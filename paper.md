@@ -52,8 +52,7 @@ CAPTION HERE
 
 We aimed to visualize how imaging studies are distributed across age groups in order to understand which populations are most represented, and why certain age groups are commonly studied. To do this, we categorized studies based on the average age of the participants and display the results as a histogram.
 
-On the right side of the plot, in gray, are studies that did not report participant age or only provided limited information, such as an age range. Using the dropdown menu, users can choose whether the histogram displays the number of studies with participants with an average age falling within a given age range
-or the total number of participants.
+On the right side of the plot, in gray, are studies that did not report participant age or only provided limited information, such as an age range. Using the dropdown menu, users can choose whether the histogram displays the number of studies with participants with an average age falling within a given age range or the total number of participants.
 
 Both counting methods share a key limitation: grouping studies by average age masks the actual distribution of ages within each study, which can lead to a misleading picture of participant demographics. However, because most studies do not provide detailed age breakdowns, this visualization offers the best possible insight given the available data.
 
