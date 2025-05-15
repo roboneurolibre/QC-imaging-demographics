@@ -3,7 +3,7 @@
  The purpose of this Jupyter Notebook is to explore demographic data gathered from human MRI and/or PET brain imaging studies conducted in Quebec, Canada from 1992 to 2023. We would like to visualize trends and relationships between various demographic factors, as well as assess whether there are issues in participant selection and in the reporting of demographic data.
 
  **Why do we focus on demographics?**
- Our understanding of human health comes from scientific studies, each typically focusing on a specific aspect of disease and treatment. These studies shape medical research priorities and clinical decision-making. However, if a study's participant sample is not representative of the broader population, its findings may only benefit certain groups. For example, if a landmark Alzheimer's study primarily includes male participants but makes general conclusions about disease progression, it risks creating a misleading narrative, one that might differ if the study included more female participants or a balanced sampe.
+ Much of our understanding of human health is built on scientific studies that often focus on specific aspects of disease, treatment, or prevention. While these targeted investigations collectively inform broader medical knowledge and public health practices, their impact can be limited if participant samples are not representative of the broader population. For example, if a landmark study on Alzheimer’s disease primarily includes male participants but draws general conclusions about disease progression, it risks creating a misleading narrative, one that might differ if the study included more female participants or a balanced cohort.
 
  **What is the potential problem with reporting?**
  Standards for reporting demographic data vary across publications and institutions, and many reputable journals may not prioritize details like sex, race and ethnicity, or age. When this information is omitted, readers may struggle to determine which populations the study’s conclusions accurately appy to.
@@ -24,7 +24,7 @@ CAPTION HERE
 
 We identified 1549 studies that were conducted in Quebec using MRI, PET, or both imaging modalities to study the healthy or diseased brain. These studies took place in different parts of Quebec, and focused on a wide variety of conditions. A breakdown of how studies were categorized is shown in the following treemap. 
 
-You can click on each box in the figure to expand the category, and each individual study can be expanded to see the title and a DOI link to the article. You may click at the top of the current box to zoom back out.
+Users can click on each box in the figure to expand the category, and each individual study can be expanded to see the title and a DOI link to the article. Users can click at the top of the current box to zoom back out.
  
 The first level of distinction is the imaging technique. The second level is the region(s) of Quebec in which the studies take place. The final level is a categorization of study populations among the following: healthy population (studies of healthy brain connectivity and cognition, testing of imaging techniques in healthy populations, etc.), epilepsy, Parkinson's disease, Alzheimer's disease, mental and behavioral disorders (excluding dementia), multiple sclerosis, cerebrovascular disease, cancer and tumors, newborns and infants, concussion and injury, vision disorders, and pain. Categories also exist for populations concerning multiple of the above categories, labelled “Multiple Categories”, and for studies concerning any other patient population which has not been categorized here, labelled “Other”.
 
@@ -38,7 +38,7 @@ CAPTION HERE
 
 # Regional breakdown of studies
 
-The studies within Quebec were conducted in different administrative regions of the province. The following map shows the regional distribution of studies that were conducted with MRI and/or PET. You may zoom and drag the map. The drop down menu can be used to change the imaging modality, and each bubble can be hovered over to see the corresponding region’s name and number of studies.
+Studies were conducted within different administrative regions of the province of Quebec. The following map shows the regional distribution of studies that were conducted with MRI and/or PET. Users can zoom and drag the map. The dropdown menu can be used to change the imaging modality, and each bubble can be hovered over to see the corresponding region’s name and number of associated studies.
  
 ## Figure 3
 
@@ -50,11 +50,12 @@ CAPTION HERE
 
 # Basic demographic breakdown
 
-We aimed to visualize how imaging studies are distributed across age groups to understand which populations are most represented and why certain age groups are commonly studied. To achieve this, we categorized studies based on the average age of the participants and plotted the results in a histogram. 
+We aimed to visualize how imaging studies are distributed across age groups in order to understand which populations are most represented, and why certain age groups are commonly studied. To do this, we categorized studies based on the average age of the participants and display the results as a histogram.
 
-On the right, in gray, are studies that failed to report participant ages or only provided limited information, such as an age range. Using the drop down menu, you can choose whether the histogram displays the number of studies within each age bin or the total number of participants in those studies.
- 
-Both counting methods are similarly limited. Binning by average age removes details about the age distribution within each study, which may lead to a misleading representation. However, since most studies do not provide comprehensive demographic breakdowns, this visualization offers the best possible insight given the available data.
+On the right side of the plot, in gray, are studies that did not report participant age or only provided limited information, such as an age range. Using the dropdown menu, users can choose whether the histogram displays the number of studies with participants with an average age falling within a given age range
+or the total number of participants.
+
+Both counting methods share a key limitation: grouping studies by average age masks the actual distribution of ages within each study, which can lead to a misleading picture of participant demographics. However, because most studies do not provide detailed age breakdowns, this visualization offers the best possible insight given the available data.
 
 ## Figure 4
 
@@ -64,7 +65,7 @@ Both counting methods are similarly limited. Binning by average age removes deta
 CAPTION HERE
 :::
 
-We also wanted to see if studies were properly reporting participant sex, and if they were appropriately including male and female participants. The split of male and female participants as well as participants whose sex is unreported is shown in this pie chart.
+We also assessed whether studies reported participant sex, and whether male and female participants were appropriately represented. The pie chart shows the distribution of male, female, and unreported sex across the included studies. 
 
 ## Figure 5
 
@@ -76,9 +77,7 @@ CAPTION HERE
 
 # Relation between age and sex
 
-Our initial approach to analyzing age and sex demographics in imaging studies was to use a population pyramid, where age distributions for each sex are displayed as stacked horizontal histograms. However, this method presents challenges due to inconsistencies in how studies report age.
-
-Some studies provide detailed age information, either by reporting individual ages (which is rare) or by reporting distribution metrics such as standard deviation alongside the mean. However, most studies lack this level of detail. By grouping studies solely based only on average age, we lose crucial information about the actual age distribution within each study. Additionally, this approach assumes that the age distributions of male and female participants within a study are similar, which may not be the case, potentially further skewing the data.
+Our initial approach to visualizing age and sex demographics was to use a population pyramid, where the number of studies reporting male and female participants with an average age within a given age bracket are displayed as opposing horizontal bars. While this allows for some insight into male and female participant age distributions, it relies only on the reported mean ages for each sex, and neglects within-study age distributions. This simplification can obscure important differences in how age is distributed across participants.    
 
 ## Figure 6
 
@@ -88,9 +87,10 @@ Some studies provide detailed age information, either by reporting individual ag
 CAPTION HERE
 :::
 
-To get a better idea on how the sex and age of participants might be related, a relational scatter plot was created. This plot compares the percentage of female and male participants vs. the average age of participants for each study. Each marker represents an individual study. Markers are colored based on the number of participants. Because a large number of low sample size studies have poor sex distribution, it is worth taking a look at the graph when looking at only studies with a larger sample size. Here, the cutoff for the sample size can be chosen with a slider. Each marker can be hovered over to see the sex ratio, mean age, and number of participants. 
+To explore the relationship between age and sex representation in a different way, we created a relational scatter plot. Each marker represents an individual study, with the x-axis indicating the study participants’ average age and the y-axis indicating the proportion of female to male participants. Marker color indicates the number of participants per study, and a slider allows users to filter studies based on sample size. This is particularly useful for reducing noise from small studies, which often have less balanced sex distributions. Hovering over each marker reveals the study’s sex ratio, mean age, and sample size. 
 
-Ultimately, both visualizations suffer from the loss of age distribution information within each study, highlighting the limitations of current age reporting practices. This reinforces the need for more comprehensive demographic reporting to enable more accurate and meaningful analyses.
+However, like the population pyramid, this scatter plot still relies solely on reported mean age values. It does not resolve the broader issue of missing or insufficient age distribution data, which limits our ability to perform deeper demographic analyses. 
+
 
 ## Figure 7
 
@@ -102,7 +102,7 @@ CAPTION HERE
 
 # Ethnicity
 
-Here we break down the ethnicity of participants reported in these imaging studies. Box sizes for each category are proportional to their participant counts. Boxes in the treemap may be clicked on to be expanded. Each category's box shows the percentage of all participants in that category and the number of participants. For subcategories within the “reported ethnicity” category, the percentage of the total reported participants is also given.
+This treemap shows the reported ethnicity of participants. Each box represents a category, with its size proportional to the number of participants. Boxes can be clicked on to expand and explore subcategories. Each category displays both the participant count and its percentage relative to the total participant pool. For subcategories within the “Reported Ethnicity” group, percentages are also calculated relative to the total number of participants with reported ethnicity. 
 
 ## Figure 8
 
@@ -126,9 +126,9 @@ CAPTION HERE
 
 # Age distribution by region
 
-Since we know that the majority of MRI and PET studies take place in Montreal, it is worth investigating whether location influences the age distribution of participants. Given that fewer studies are conducted in other regions, namely Sherbrooke and Quebec City, these sites may be more selective in their participant recruitment or focused on studying more specific populations rather than enrolling any available healthy volunteers. 
+Given that the majority of MRI and PET studies are conducted in Montreal, it is important to examine whether location influences participant age distribution. In contrast, fewer studies originate from other regions, such as Sherbrooke and Quebec City. These sites may be more selective in recruitment or more focused on specific populations, rather than broadly sampling healthy volunteers.
 
-The following raincloud plot visualizes this distribution. The box plots display the median (centerline), first and third quartiles (box edges), and the minimum and maximum data points at the edge of the whiskers (known as fences), excluding any outliers. In the scatter plots below each boxplot, each black dot represents a study. The overlaid half-violin plots illustrate the density of studies across the average age range for each region. Each distribution can be hovered over to display summary statistics.
+The raincloud plot below shows age distribution across regions. Each region is represented as a box plot showing the median (centerline), first and third quartiles (box edges), and the minimum and maximum data points at the edge of the whiskers (known as fences), excluding any outliers. Scatter plots below each boxplot show individual studies as black dots. The overlaid half-violin plots indicate the density of studies across the average age range. Hovering over each distribution reveals summary statistics.
 
 ## Figure 10
 
@@ -140,9 +140,9 @@ CAPTION HERE
 
 # Age distribution by study population category
 
-We are particularly interested in how the average age distribution varies across different population categories, especially those expected to be skewed, such as Alzheimer's. The overall age distribution shown in Figure 4 can be seen as a composition of these individual distributions. By separating them, we gain further insight into how different study populations are selected. 
+We are particularly interested in how the average participant age varies across different study population categories, especially those likely to show skewed distributions, such as Alzheimer’s disease. The overall age distribution shown in Figure 4 can be understood as the sum of these individual population-specific distributions. Disaggregating them provides more insight into how participants are selected for different study types.
 
-The following raincloud plot visualizes these distributions, similar to Figure 10, but categorized by study population. The box plots show the median (center line), first and third quartiles (box edges), and the minimum and maximum data points at the edge of the whiskers (known as fences), excluding any outliers. In the scatter plots below each boxplot, each black dot represents a study. The overlaid half-violin plots illustrate the density of studies across average participant age for each category. Each distribution can be hovered over to display summary statistics.
+The following raincloud plot presents these distributions by study population category, using the same format as Figure 10. Each box plots shows the median (center line), first and third quartiles (box edges), and the minimum and maximum data points at the edge of the whiskers (known as fences), excluding any outliers. Scatter plots below each box plot represent individual studies as black dots. The overlaid half-violin plots visualize the density of studies across average participant age for each category. Hovering over each distribution reveals summary statistics.
 
  ## Figure 11
 
