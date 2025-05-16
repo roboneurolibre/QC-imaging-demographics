@@ -1,6 +1,6 @@
 # Introduction
 
- The purpose of this Jupyter Notebook is to explore demographic data gathered from human MRI and/or PET brain imaging studies conducted in Quebec, Canada from 1992 to 2023. We would like to visualize trends and relationships between various demographic factors, as well as assess whether there are issues in participant selection and in the reporting of demographic data.
+ The purpose of this reproducible preprint is to explore demographic data gathered from human MRI and/or PET brain imaging studies conducted in Quebec, Canada from 1992 to 2023. We would like to visualize trends and relationships between various demographic factors, as well as assess whether there are issues in participant selection and in the reporting of demographic data.
 
  **Why do we focus on demographics?**
  Much of our understanding of human health is built on scientific studies that often focus on specific aspects of disease, treatment, or prevention. While these targeted investigations collectively inform broader medical knowledge and public health practices, their impact can be limited if participant samples are not representative of the broader population. For example, if a landmark study on Alzheimer’s disease primarily includes male participants but draws general conclusions about disease progression, it risks creating a misleading narrative, one that might differ if the study included more female participants or a balanced cohort.
@@ -17,9 +17,7 @@ We used Medline, Embase, and Google Scholar databases, retrieved all records inv
 ## Figure 1
 
 :::{figure} #fig1cell
-:label: fig1
 
-CAPTION HERE
 :::
 
 We identified 1549 studies that were conducted in Quebec using MRI, PET, or both imaging modalities to study the healthy or diseased brain. These studies took place in different parts of Quebec, and focused on a wide variety of conditions. A breakdown of how studies were categorized is shown in the following treemap. 
@@ -31,9 +29,7 @@ The first level of distinction is the imaging technique. The second level is the
 ## Figure 2
 
 :::{figure} #fig2cell
-:label: fig2
 
-CAPTION HERE
 :::
 
 # Regional breakdown of studies
@@ -43,9 +39,7 @@ Studies were conducted within different administrative regions of the province o
 ## Figure 3
 
 :::{figure} #fig3cell
-:label: fig3
 
-CAPTION HERE
 :::
 
 # Basic demographic breakdown
@@ -59,9 +53,7 @@ Both counting methods share a key limitation: grouping studies by average age ma
 ## Figure 4
 
 :::{figure} #fig4cell
-:label: fig4
 
-CAPTION HERE
 :::
 
 We also assessed whether studies reported participant sex, and whether male and female participants were appropriately represented. The pie chart shows the distribution of male, female, and unreported sex across the included studies. 
@@ -69,9 +61,7 @@ We also assessed whether studies reported participant sex, and whether male and 
 ## Figure 5
 
 :::{figure} #fig5cell
-:label: fig5
 
-CAPTION HERE
 :::
 
 # Relation between age and sex
@@ -81,9 +71,7 @@ Our initial approach to visualizing age and sex demographics was to use a popula
 ## Figure 6
 
 :::{figure} #fig6cell
-:label: fig6
 
-CAPTION HERE
 :::
 
 To explore the relationship between age and sex representation in a different way, we created a relational scatter plot. Each marker represents an individual study, with the x-axis indicating the study participants’ average age and the y-axis indicating the proportion of female to male participants. Marker color indicates the number of participants per study, and a slider allows users to filter studies based on sample size. This is particularly useful for reducing noise from small studies, which often have less balanced sex distributions. Hovering over each marker reveals the study’s sex ratio, mean age, and sample size. 
@@ -94,9 +82,7 @@ However, like the population pyramid, this scatter plot still relies solely on r
 ## Figure 7
 
 :::{figure} #fig7cell
-:label: fig7
-
-CAPTION HERE
+:width: 66%
 :::
 
 # Ethnicity
@@ -106,9 +92,7 @@ This treemap shows the reported ethnicity of participants. Each box represents a
 ## Figure 8
 
 :::{figure} #fig8cell
-:label: fig8
 
-CAPTION HERE
 :::
 
 # Trends in participant sex by year of publication
@@ -118,9 +102,7 @@ Based on the age distribution, it appears that many healthy participant studies 
 ## Figure 9
 
 :::{figure} #fig9cell
-:label: fig9
 
-CAPTION HERE
 :::
 
 # Age distribution by region
@@ -132,9 +114,7 @@ The raincloud plot below shows age distribution across regions. Each region is r
 ## Figure 10
 
 :::{figure} #fig10cell
-:label: fig10
 
-CAPTION HERE
 :::
 
 # Age distribution by study population category
@@ -146,9 +126,7 @@ The following raincloud plot presents these distributions by study population ca
  ## Figure 11
 
 :::{figure} #fig11cell
-:label: fig11
 
-CAPTION HERE
 :::
 
 # Trends in demographic reporting
@@ -158,7 +136,5 @@ Given our findings on the lack of demographic reporting, we wanted to examine wh
 ## Figure 12
 
 :::{figure} #fig12cell
-:label: fig12
 
-CAPTION HERE
 :::

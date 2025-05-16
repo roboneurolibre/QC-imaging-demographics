@@ -17,12 +17,13 @@ project:
     - name: Olujide Oyeniran
       affiliations: 
       orcid: 0000-0002-9786-423X
+      email: ooyenir@uwo.ca
     - name: Udunna Anazodo
       affiliations: mni
       orcid: 0000-0001-8864-035X
       email: udunna.anazodo@mcgill.ca
     - name: Benjamin De Leener
-      affiliations: neuropoly; chusj; polymtlcs
+      affiliations: neuropoly; chusj; polymtlceng
       orcid: 0000-0002-1378-2756
       email: benjamin.de-leener@polymtl.ca
     - name: Eva Alonso-Ortiz
@@ -60,11 +61,10 @@ project:
       region: Quebec
       country: Canada
       postal_code: H3T 1C5
-    - id: polymtlcs
-      institution: Polytechnique Montreal
+    - id: polymtlceng
+      institution: Department of Computer Engineering and Software Engineering, Polytechnique Montreal
       ror: https://ror.org/05f8d4e86
       isni: 0000 0004 0435 3292
-      department: Computer Engineering and Software Engineering
       address: 2500 Chem. de Polytechnique
       city: Montreal
       region: Quebec
@@ -91,3 +91,5 @@ project:
     - content/figures.ipynb
 site:
   template: article-theme # Or book-theme
+  options:
+    twitter: neurolibre
