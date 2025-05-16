@@ -83,6 +83,7 @@ However, like the population pyramid, this scatter plot still relies solely on r
 
 :::{figure} #fig7cell
 :width: 66%
+
 :::
 
 # Ethnicity
