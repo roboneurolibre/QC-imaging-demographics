@@ -8,8 +8,8 @@
  **What is the potential problem with reporting?**
  Standards for reporting demographic data vary across publications and institutions, and many reputable journals may not prioritize details like sex, race and ethnicity, or age. When this information is omitted, readers may struggle to determine which populations the study’s conclusions accurately appy to.
 
- **The content of this Jupyter book**
- In this notebook, you will find figures illustrating the demographics of Quebec MRI and PET brain imaging study participants, some of which contain interactive elements, and brief descriptions of what has been done to create those figures and why. Discussion and interpretation of results can be found in the full preprint.
+ **The content of this reproducible preprint**
+ In this preprint, you will find figures illustrating the demographics of Quebec MRI and PET brain imaging study participants, some of which contain interactive elements, and brief descriptions of what has been done to create those figures and why. Discussion and interpretation of results can be found in the full publication.
 
  # Study selection
 We used Medline, Embase, and Google Scholar databases, retrieved all records involving MRI and/or PET brain imaging in Quebec between 1992 and 2023, and screened those results. The Sankey diagram shows the screening process in detail. You can hover over the connections between blocks for information regarding screening criteria.

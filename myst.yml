@@ -15,7 +15,7 @@ project:
       email: tudor.sintu@gmail.com
       github: tsintu
     - name: Olujide Oyeniran
-      affiliations: 
+      affiliations: mailab
       orcid: 0000-0002-9786-423X
       email: ooyenir@uwo.ca
     - name: Udunna Anazodo
@@ -71,6 +71,11 @@ project:
       country: Canada
       postal_code: H3T 1J4
       phone: 1 (514) 340-4711
+    - id: mailab
+      institution: Medical Artificial Intelligence Laboratory, Crestview Radiology
+      address: 120/124 Ikorodu Road
+      city: Lagos
+      country: Nigeria
   keywords:
     - reproducible publishing
     - mystmd
@@ -79,7 +84,7 @@ project:
   venue: Neurolibre #Production will override this.
   subject: Living Preprint # Production will override this.
   numbering:
-    headings: true
+    headings: false
   doi: 10.55458/neurolibre.xxxxx # Production will override this.
   open_access: true
   license:
