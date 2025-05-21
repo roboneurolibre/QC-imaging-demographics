@@ -98,7 +98,7 @@ This treemap shows the reported ethnicity of participants. Each box represents a
 
 # Trends in participant sex by year of publication
 
-Based on the age distribution, it appears that many healthy participant studies likely recruit from student university volunteer populations. We wanted to explore whether this, or other factors, might influence the sex distribution of participants over time, given the significant improvements in gender representation within scientific fields in recent decades. Additionally it is valuable to visualize the total number of participants included in imaging studies over time. The stacked bar chart shows the number of male and female participants by year of publication, with the full height of each bar representing the total participants studied in that year. The red line overlaid on the graph indicates the percentage of female participants in studies each year.
+Based on observed age distributions, it appears that many healthy participant studies likely recruit from student university volunteer populations. We wanted to explore whether this, or other factors, might influence the sex distribution of participants over time, given the significant improvements in gender representation within scientific fields in recent decades. Additionally, it is valuable to visualize the total number of participants included in imaging studies over time. The stacked bar chart shows the number of male and female participants by year of publication, with the full height of each bar representing the total participants studied in that year. The red line overlaid on the graph indicates the percentage of female participants in studies each year.
 
 ## Figure 9
 
@@ -120,7 +120,7 @@ The raincloud plot below shows age distribution across regions. Each region is r
 
 # Age distribution by study population category
 
-We are particularly interested in how the average participant age varies across different study population categories, especially those likely to show skewed distributions, such as Alzheimer’s disease. The overall age distribution shown in Figure 4 can be understood as the sum of these individual population-specific distributions. Disaggregating them provides more insight into how participants are selected for different study types.
+We are also interested in how the average participant age varies across different study population categories, especially those likely to show skewed distributions, such as Alzheimer’s disease. The overall age distribution shown in Figure 4 can be understood as the sum of these individual population-specific distributions. Disaggregating them provides more insight into how participants are selected for different study types.
 
 The following raincloud plot presents these distributions by study population category, using the same format as Figure 10. Each box plots shows the median (center line), first and third quartiles (box edges), and the minimum and maximum data points at the edge of the whiskers (known as fences), excluding any outliers. Scatter plots below each box plot represent individual studies as black dots. The overlaid half-violin plots visualize the density of studies across average participant age for each category. Hovering over each distribution reveals summary statistics.
 
