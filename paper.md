@@ -6,13 +6,13 @@
  Much of our understanding of human health is built on scientific studies that often focus on specific aspects of disease, treatment, or prevention. While these targeted investigations collectively inform broader medical knowledge and public health practices, their impact can be limited if participant samples are not representative of the broader population. For example, if a landmark study on Alzheimer’s disease primarily includes male participants but draws general conclusions about disease progression, it risks creating a misleading narrative, one that might differ if the study included more female participants or a balanced cohort.
 
  **What is the potential problem with reporting?**
- Standards for reporting demographic data vary across publications and institutions, and many reputable journals may not prioritize details like sex, race and ethnicity, or age. When this information is omitted, readers may struggle to determine which populations the study’s conclusions accurately appy to.
+ Standards for reporting demographic data vary across publications and institutions, and many reputable journals may not prioritize details like sex, race and ethnicity, or age. When this information is omitted, readers may struggle to determine which populations the study’s conclusions accurately apply to.
 
  **The content of this reproducible preprint**
- In this preprint, you will find figures illustrating the demographics of Quebec MRI and PET brain imaging study participants, some of which contain interactive elements, and brief descriptions of what has been done to create those figures and why. Discussion and interpretation of results can be found in the full publication.
+ In this preprint, you will find figures illustrating the demographics of Quebec MRI and PET brain imaging study participants, some of which contain interactive elements, and brief descriptions of what has been done to create those figures and why. A discussion and interpretation of results can be found in the full publication.
 
  # Study selection
-We used Medline, Embase, and Google Scholar databases, retrieved all records involving MRI and/or PET brain imaging in Quebec between 1992 and 2023, and screened those results. The Sankey diagram shows the screening process in detail. You can hover over the connections between blocks for information regarding screening criteria.
+We used Medline, Embase, and Google Scholar databases, retrieved all records involving MRI and/or PET brain imaging in Quebec between 1992 and 2023, and screened those results. The Sankey diagram below shows the screening process in detail. Users can hover over the connections between blocks for information regarding screening criteria.
 
 ## Figure 1
 
@@ -20,7 +20,7 @@ We used Medline, Embase, and Google Scholar databases, retrieved all records inv
 
 :::
 
-We identified 1549 studies that were conducted in Quebec using MRI, PET, or both imaging modalities to study the healthy or diseased brain. These studies took place in different parts of Quebec, and focused on a wide variety of conditions. A breakdown of how studies were categorized is shown in the following treemap. 
+We identified 1,549 studies that were conducted in Quebec using MRI, PET, or both imaging modalities to study the healthy or diseased brain. These studies took place in different parts of Quebec, and focused on a wide variety of conditions. A breakdown of how studies were categorized is shown in the following treemap. 
 
 Users can click on each box in the figure to expand the category, and each individual study can be expanded to see the title and a DOI link to the article. Users can click at the top of the current box to zoom back out.
  
