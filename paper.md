@@ -41,13 +41,13 @@ date: "5 June 2025"
  Much of our understanding of human health is built on scientific studies that often focus on specific aspects of disease, treatment, or prevention. While these targeted investigations collectively inform broader medical knowledge and public health practices, their impact can be limited if participant samples are not representative of the broader population. For example, if a landmark study on Alzheimer’s disease primarily includes male participants but draws general conclusions about disease progression, it risks creating a misleading narrative, one that might differ if the study included more female participants or a balanced cohort.
 
  **What is the potential problem with reporting?**
- Standards for reporting demographic data vary across publications and institutions, and many reputable journals may not prioritize details like sex, race and ethnicity, or age. When this information is omitted, readers may struggle to determine which populations the study’s conclusions accurately appy to.
+ Standards for reporting demographic data vary across publications and institutions, and many reputable journals may not prioritize details like sex, race and ethnicity, or age. When this information is omitted, readers may struggle to determine which populations the study’s conclusions accurately apply to.
 
  **The content of this reproducible preprint**
- In this preprint, you will find figures illustrating the demographics of Quebec MRI and PET brain imaging study participants, some of which contain interactive elements, and brief descriptions of what has been done to create those figures and why. Discussion and interpretation of results can be found in the full publication.
+ In this preprint, you will find figures illustrating the demographics of Quebec MRI and PET brain imaging study participants, some of which contain interactive elements, and brief descriptions of what has been done to create those figures and why. A discussion and interpretation of results can be found in the full publication.
 
  # Study selection
-We used Medline, Embase, and Google Scholar databases, retrieved all records involving MRI and/or PET brain imaging in Quebec between 1992 and 2023, and screened those results. The Sankey diagram shows the screening process in detail. You can hover over the connections between blocks for information regarding screening criteria.
+We used Medline, Embase, and Google Scholar databases, retrieved all records involving MRI and/or PET brain imaging in Quebec between 1992 and 2023, and screened those results. The Sankey diagram below shows the screening process in detail. Users can hover over the connections between blocks for information regarding screening criteria.
 
 ## Figure 1
 
@@ -55,7 +55,7 @@ We used Medline, Embase, and Google Scholar databases, retrieved all records inv
 
 :::
 
-We identified 1549 studies that were conducted in Quebec using MRI, PET, or both imaging modalities to study the healthy or diseased brain. These studies took place in different parts of Quebec, and focused on a wide variety of conditions. A breakdown of how studies were categorized is shown in the following treemap. 
+We identified 1,549 studies that were conducted in Quebec using MRI, PET, or both imaging modalities to study the healthy or diseased brain. These studies took place in different parts of Quebec, and focused on a wide variety of conditions. A breakdown of how studies were categorized is shown in the following treemap. 
 
 Users can click on each box in the figure to expand the category, and each individual study can be expanded to see the title and a DOI link to the article. Users can click at the top of the current box to zoom back out.
  
@@ -133,7 +133,7 @@ This treemap shows the reported ethnicity of participants. Each box represents a
 
 # Trends in participant sex by year of publication
 
-Based on the age distribution, it appears that many healthy participant studies likely recruit from student university volunteer populations. We wanted to explore whether this, or other factors, might influence the sex distribution of participants over time, given the significant improvements in gender representation within scientific fields in recent decades. Additionally it is valuable to visualize the total number of participants included in imaging studies over time. The stacked bar chart shows the number of male and female participants by year of publication, with the full height of each bar representing the total participants studied in that year. The red line overlaid on the graph indicates the percentage of female participants in studies each year.
+Based on observed age distributions, it appears that many healthy participant studies likely recruit from student university volunteer populations. We wanted to explore whether this, or other factors, might influence the sex distribution of participants over time, given the significant improvements in gender representation within scientific fields in recent decades. Additionally it is valuable to visualize the total number of participants included in imaging studies over time. The stacked bar chart shows the number of male and female participants by year of publication, with the full height of each bar representing the total participants studied in that year. The red line overlaid on the graph indicates the percentage of female participants in studies each year.
 
 ## Figure 9
 
@@ -155,7 +155,7 @@ The raincloud plot below shows age distribution across regions. Each region is r
 
 # Age distribution by study population category
 
-We are particularly interested in how the average participant age varies across different study population categories, especially those likely to show skewed distributions, such as Alzheimer’s disease. The overall age distribution shown in Figure 4 can be understood as the sum of these individual population-specific distributions. Disaggregating them provides more insight into how participants are selected for different study types.
+We are also interested in how the average participant age varies across different study population categories, especially those likely to show skewed distributions, such as Alzheimer’s disease. The overall age distribution shown in Figure 4 can be understood as the sum of these individual population-specific distributions. Disaggregating them provides more insight into how participants are selected for different study types.
 
 The following raincloud plot presents these distributions by study population category, using the same format as Figure 10. Each box plots shows the median (center line), first and third quartiles (box edges), and the minimum and maximum data points at the edge of the whiskers (known as fences), excluding any outliers. Scatter plots below each box plot represent individual studies as black dots. The overlaid half-violin plots visualize the density of studies across average participant age for each category. Hovering over each distribution reveals summary statistics.
 
