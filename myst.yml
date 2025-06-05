@@ -76,10 +76,6 @@ project:
       address: 120/124 Ikorodu Road
       city: Lagos
       country: Nigeria
-  keywords:
-    - reproducible publishing
-    - mystmd
-    - next-gen preprints
   github: https://github.com/evaalonsoortiz/QC-imaging-demographics
   venue: Neurolibre #Production will override this.
   subject: Living Preprint # Production will override this.
