@@ -10,6 +10,7 @@ project:
       ref: HEAD # Production will override this.
   authors:
     - name: Tudor Sintu
+      affiliations: neuropoly
       orcid: 0009-0001-8425-3210
       corresponding: true
       email: tudor.sintu@gmail.com
