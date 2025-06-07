@@ -47,7 +47,7 @@ date: "5 June 2025"
  **The content of this reproducible preprint**
  In this preprint, you will find figures illustrating the demographics of Quebec MRI and PET brain imaging study participants, some of which contain interactive elements, and brief descriptions of what has been done to create those figures and why. A discussion and interpretation of results can be found in the full publication.
 
- # Study selection
+# Study selection
 We used Medline, Embase, and Google Scholar databases, retrieved all records involving MRI and/or PET brain imaging in Quebec between 1992 and 2023, and screened those results. The Sankey diagram below shows the screening process in detail. Users can hover over the connections between blocks for information regarding screening criteria.
 
 ## Figure 1
@@ -160,7 +160,7 @@ We are also interested in how the average participant age varies across differen
 
 The following raincloud plot presents these distributions by study population category, using the same format as Figure 10. Each box plots shows the median (center line), first and third quartiles (box edges), and the minimum and maximum data points at the edge of the whiskers (known as fences), excluding any outliers. Scatter plots below each box plot represent individual studies as black dots. The overlaid half-violin plots visualize the density of studies across average participant age for each category. Hovering over each distribution reveals summary statistics.
 
- ## Figure 11
+## Figure 11
 
 :::{figure} #fig11cell
 
