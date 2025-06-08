@@ -2,6 +2,7 @@
 version: 1
 project:
   title: 'Representation in Brain Imaging Research'
+  banner: banner.jpg
   subtitle: A Quebec demographic overview
   thebe:
     binder:
